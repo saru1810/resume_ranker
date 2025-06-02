@@ -1,0 +1,11 @@
+Jane Smith
+Data Scientist with expertise in Natural Language Processing and deep learning.
+Skills: Python, NLP, Deep Learning, PyTorch, Data Visualization.
+Experience:
+- Implemented text classification models using deep learning.
+- Created interactive dashboards for data insights.
+- Conducted data preprocessing and feature engineering for NLP tasks.
+Education:
+M.S. in Data Science, ABC Institute, 2022.
+Certifications:
+- Certified Data Scientist, DataCamp.

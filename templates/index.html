@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume Ranker</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e6eff0, #c3d3d4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: rgb(95, 190, 203);
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 550px;
+      width: 90%;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      border: 2px solid #279a96;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      color: #004466;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: 600;
+      color: #004466;
+      margin-top: 15px;
+      display: block;
+    }
+
+    input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 8px;
+      border: 1.5px solid #ccc;
+      font-size: 0.95rem;
+      background: #f9f9f9;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="file"]:focus {
+      border-color: #0077cc;
+      outline: none;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: white;
+      background-color: #0077cc;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <!-- You can replace this with your own logo -->
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="App Logo" />
+    </div>
+
+    <h1>Upload Job Description & Resumes</h1>
+
+    <form method="POST" action="/rank" enctype="multipart/form-data">
+      <label for="job_description">Job Description:</label>
+      <input type="file" id="job_description" name="job_description" accept=".txt,.docx" required />
+      <div class="note">Accepted formats: .txt, .docx</div>
+
+      <label for="resumes">Resumes (Multiple):</label>
+      <input type="file" id="resumes" name="resumes" accept=".txt,.docx" multiple required />
+      <div class="note">You can upload more than one resume</div>
+
+      <input type="submit" value="Rank Resumes">
+    </form>
+
+    <footer>🚀 Powered by ResumeRanker.ai</footer>
+  </div>
+</body>
+</html>

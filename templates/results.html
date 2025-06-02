@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume Ranking Results</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #3cb790;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #004466;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            background: #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #0077cc;
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f9fbfc;
+        }
+        tr:hover {
+            background-color: #dbeefc;
+        }
+        a {
+            margin-top: 30px;
+            display: inline-block;
+            text-decoration: none;
+            background-color: #0077cc;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #005fa3;
+        }
+        /* Responsive */
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 10px;
+            }
+            table {
+                width: 100%;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume Ranking Results</h1>
+    <table>
+        <tr>
+            <th>Resume Name</th>
+            <th>Similarity Score</th>
+        </tr>
+        {% for resume, score in results %}
+        <tr>
+            <td>{{ resume }}</td>
+            <td>{{ score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Back</a>
+</body>
+</html>

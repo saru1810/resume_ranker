@@ -1,0 +1,7 @@
+Jane Smith
+Software Developer
+
+Experience:
+- Developed web applications in Django and Flask.
+- Focused on frontend and backend development using React and Python.
+Skills: Django, Flask, JavaScript, Git

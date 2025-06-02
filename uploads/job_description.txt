@@ -1,0 +1,27 @@
+Job Title: Cybersecurity Analyst
+
+We are seeking a detail-oriented and passionate Cybersecurity Analyst to join our team. The ideal candidate will have a strong foundation in cybersecurity principles, risk management, and secure systems architecture. The role involves protecting sensitive information, monitoring network activity, and responding to incidents.
+
+Responsibilities:
+- Monitor and analyze security events and logs
+- Conduct vulnerability assessments and penetration testing
+- Implement security measures such as firewalls, encryption, and access controls
+- Respond to security breaches and coordinate incident response
+- Stay current with latest security threats and trends
+
+Requirements:
+- Bachelor's degree in Computer Science, Cybersecurity, or related field
+- Knowledge of network security, cryptography, and secure communication protocols
+- Familiarity with tools like Wireshark, Nessus, Metasploit, or similar
+- Experience with Python or other scripting languages
+- Understanding of SSL/TLS, authentication, and access control systems
+- Certifications like CompTIA Security+, CEH, or Microsoft Security Fundamentals are a plus
+
+Preferred Skills:
+- Hands-on project experience in cybersecurity
+- Strong communication and analytical skills
+- Ability to work both independently and in a team
+
+
+
+

@@ -1,0 +1,29 @@
+John Doe
+Email: johndoe@example.com | Phone: +1 123-456-7890
+
+Objective:
+To obtain a position as a Software Developer where I can utilize my skills in Python, web development, and problem-solving.
+
+Education:
+Bachelor of Technology in Computer Science
+XYZ University, 2022
+
+Skills:
+- Programming Languages: Python, JavaScript, C++
+- Web Technologies: Flask, Django, HTML, CSS, JavaScript
+- Databases: MySQL, MongoDB
+- Version Control: Git, GitHub
+
+Projects:
+- Built a secure login system using Flask and bcrypt
+- Developed a REST API for a library management system
+- Created a portfolio website with HTML, CSS, and JavaScript
+
+Experience:
+Intern – ABC Software Solutions (Jan 2022 – May 2022)
+- Assisted in developing a customer feedback portal using Flask
+- Fixed bugs and improved performance of existing web apps
+
+Certifications:
+- Python for Everybody – Coursera
+- Web Application Security – Udemy

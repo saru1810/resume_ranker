@@ -1,0 +1,64 @@
+Sarumathi R V
+Email: [your.email@example.com]
+Phone: [Your Phone Number]
+LinkedIn: [linkedin.com/in/yourprofile]
+GitHub: [github.com/yourusername]
+
+Objective
+---------
+Aspiring Cybersecurity Analyst passionate about securing digital infrastructure. Microsoft-certified with hands-on experience in secure chat applications, data dashboards, and Python-based projects. Seeking opportunities to apply knowledge and grow in the field of cybersecurity.
+
+Education
+---------
+Bachelor of Engineering in Computer Science and Engineering
+Rajalakshmi Institute of Technology, [City, State]
+Expected Graduation: [Month, Year]
+
+Certifications
+--------------
+- Microsoft Cybersecurity Certification
+- [Other relevant certifications, if any]
+
+Projects
+--------
+Secure Chat Application (Python, Flask, SSL/TLS, Signal Protocol)
+- Developed end-to-end encrypted messaging platform.
+- Implemented secure sockets and cryptographic standards using Python libraries.
+
+Real-Time Weather Analysis Dashboard (Python for Data Science Lab)
+- Created a dashboard that visualizes real-time weather data using Python libraries.
+
+Online Mess Feedback System
+- Built a platform to gather student feedback on college mess facilities.
+
+Internship & Achievements
+--------------------------
+- Internship project on energy data analysis and dashboard for Rajalakshmi Institute of Technology.
+- Presented video pitch for AICTE and Salesforce; thanked 1M1B and Dr. Goudhaman.
+
+Technical Skills
+----------------
+- Programming: Python, Java (learning)
+- Web: Flask, HTML, CSS, JavaScript
+- Security: Cryptography, SSL/TLS, Secure Protocols
+- Tools: Git, VS Code, Jupyter
+
+Soft Skills
+-----------
+- Strong communication and presentation abilities
+- Quick learner with attention to detail
+- Problem-solving mindset
+
+Languages
+---------
+- English (Fluent)
+- Tamil (Native)
+
+Personal Details
+----------------
+Age: 18
+Weight: 48 kg
+
+References
+----------
+Available on request.
