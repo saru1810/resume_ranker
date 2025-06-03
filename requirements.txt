@@ -30,6 +30,8 @@ nltk==3.9.1
 numpy==2.2.5
 packaging==25.0
 pandas==2.2.3
+pdfminer==1.0.0
+pdfminer.six==20221105
 pillow==11.2.1
 platformdirs==4.3.6
 pycparser==2.22
