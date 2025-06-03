@@ -1,64 +1,27 @@
-Sarumathi R V
-Email: [your.email@example.com]
-Phone: [Your Phone Number]
-LinkedIn: [linkedin.com/in/yourprofile]
-GitHub: [github.com/yourusername]
+Job Title: Cybersecurity Analyst
 
-Objective
----------
-Aspiring Cybersecurity Analyst passionate about securing digital infrastructure. Microsoft-certified with hands-on experience in secure chat applications, data dashboards, and Python-based projects. Seeking opportunities to apply knowledge and grow in the field of cybersecurity.
+We are seeking a detail-oriented and passionate Cybersecurity Analyst to join our team. The ideal candidate will have a strong foundation in cybersecurity principles, risk management, and secure systems architecture. The role involves protecting sensitive information, monitoring network activity, and responding to incidents.
 
-Education
----------
-Bachelor of Engineering in Computer Science and Engineering
-Rajalakshmi Institute of Technology, [City, State]
-Expected Graduation: [Month, Year]
+Responsibilities:
+- Monitor and analyze security events and logs
+- Conduct vulnerability assessments and penetration testing
+- Implement security measures such as firewalls, encryption, and access controls
+- Respond to security breaches and coordinate incident response
+- Stay current with latest security threats and trends
 
-Certifications
---------------
-- Microsoft Cybersecurity Certification
-- [Other relevant certifications, if any]
+Requirements:
+- Bachelor's degree in Computer Science, Cybersecurity, or related field
+- Knowledge of network security, cryptography, and secure communication protocols
+- Familiarity with tools like Wireshark, Nessus, Metasploit, or similar
+- Experience with Python or other scripting languages
+- Understanding of SSL/TLS, authentication, and access control systems
+- Certifications like CompTIA Security+, CEH, or Microsoft Security Fundamentals are a plus
 
-Projects
---------
-Secure Chat Application (Python, Flask, SSL/TLS, Signal Protocol)
-- Developed end-to-end encrypted messaging platform.
-- Implemented secure sockets and cryptographic standards using Python libraries.
+Preferred Skills:
+- Hands-on project experience in cybersecurity
+- Strong communication and analytical skills
+- Ability to work both independently and in a team
 
-Real-Time Weather Analysis Dashboard (Python for Data Science Lab)
-- Created a dashboard that visualizes real-time weather data using Python libraries.
 
-Online Mess Feedback System
-- Built a platform to gather student feedback on college mess facilities.
 
-Internship & Achievements
---------------------------
-- Internship project on energy data analysis and dashboard for Rajalakshmi Institute of Technology.
-- Presented video pitch for AICTE and Salesforce; thanked 1M1B and Dr. Goudhaman.
 
-Technical Skills
-----------------
-- Programming: Python, Java (learning)
-- Web: Flask, HTML, CSS, JavaScript
-- Security: Cryptography, SSL/TLS, Secure Protocols
-- Tools: Git, VS Code, Jupyter
-
-Soft Skills
------------
-- Strong communication and presentation abilities
-- Quick learner with attention to detail
-- Problem-solving mindset
-
-Languages
----------
-- English (Fluent)
-- Tamil (Native)
-
-Personal Details
-----------------
-Age: 18
-Weight: 48 kg
-
-References
-----------
-Available on request.
