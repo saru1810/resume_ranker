@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
+    /* Your existing styles unchanged */
     * {
       box-sizing: border-box;
     }
@@ -56,6 +57,25 @@
       display: block;
     }
 
+    textarea {
+      width: 100%;
+      min-height: 80px;
+      padding: 10px;
+      font-size: 0.95rem;
+      border-radius: 8px;
+      border: 1.5px solid #ccc;
+      background: #f9f9f9;
+      resize: vertical;
+      transition: border-color 0.3s ease;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    textarea:focus {
+      border-color: #0077cc;
+      outline: none;
+    }
+
     input[type="file"] {
       width: 100%;
       padding: 10px;
@@ -65,6 +85,7 @@
       font-size: 0.95rem;
       background: #f9f9f9;
       transition: border-color 0.3s ease;
+      margin-bottom: 15px;
     }
 
     input[type="file"]:focus {
@@ -96,6 +117,24 @@
       background-color: #005fa3;
     }
 
+    button#addResumeManual {
+      margin-top: 10px;
+      background: #004466;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      display: block;
+      width: 100%;
+    }
+
+    button#addResumeManual:hover {
+      background-color: #003355;
+    }
+
     footer {
       margin-top: 25px;
       text-align: center;
@@ -107,25 +146,50 @@
 <body>
   <div class="container">
     <div class="logo">
-      <!-- You can replace this with your own logo -->
       <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="App Logo" />
     </div>
 
     <h1>Upload Job Description & Resumes</h1>
 
-    <form method="POST" action="/rank" enctype="multipart/form-data">
-      <label for="job_description">Job Description:</label>
-      <input type="file" id="job_description" name="job_description" accept=".txt,.docx" required />
-      <div class="note">Accepted formats: .txt, .docx</div>
+    <form method="POST" action="/results" enctype="multipart/form-data">
 
-      <label for="resumes">Resumes (Multiple):</label>
-      <input type="file" id="resumes" name="resumes" accept=".txt,.docx" multiple required />
-      <div class="note">You can upload more than one resume</div>
+      <label for="jd_manual">Or enter Job Description manually:</label>
+      <textarea id="jd_manual" name="jd_manual" placeholder="Paste or type job description here..."></textarea>
+      <div class="note">You can either upload a file or enter text here.</div>
+
+      <label for="job_description">Upload Job Description File:</label>
+      <input type="file" id="job_description" name="job_description" accept=".txt,.pdf" />
+      <div class="note">Accepted formats: .txt, .pdf</div>
+
+      <hr style="margin: 30px 0; border-color: #279a96;">
+
+      <label>Or enter Resume(s) manually:</label>
+      <div id="manualResumesContainer">
+        <textarea name="resumes_manual" placeholder="Paste or type resume text here..."></textarea>
+      </div>
+      <button type="button" id="addResumeManual">+ Add Another Manual Resume</button>
+      <div class="note">You can add multiple manual resumes.</div>
+
+      <label for="resumes">Upload Resume Files :</label>
+      <input type="file" id="resumes" name="resumes" accept=".txt,.pdf" multiple />
+      <div class="note">Accepted formats: .txt, .pdf</div>
 
       <input type="submit" value="Rank Resumes">
     </form>
 
-    <footer>🚀 Powered by ResumeRanker.ai</footer>
+    <footer>
+      &copy; 2025 Resume Ranker App
+    </footer>
   </div>
+
+  <script>
+    document.getElementById("addResumeManual").addEventListener("click", function () {
+      const container = document.getElementById("manualResumesContainer");
+      const textarea = document.createElement("textarea");
+      textarea.name = "resumes_manual";
+      textarea.placeholder = "Paste or type another resume here...";
+      container.appendChild(textarea);
+    });
+  </script>
 </body>
 </html>

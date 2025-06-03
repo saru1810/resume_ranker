@@ -19,6 +19,7 @@
             color: #004466;
             margin-bottom: 30px;
             font-size: 2rem;
+            text-align: center;
         }
         table {
             border-collapse: collapse;
@@ -60,7 +61,6 @@
         a:hover {
             background-color: #005fa3;
         }
-        /* Responsive */
         @media (max-width: 640px) {
             body {
                 padding: 20px 10px;
@@ -78,14 +78,17 @@
         <tr>
             <th>Resume Name</th>
             <th>Similarity Score</th>
+            <th>Match Level</th> <!-- New column -->
         </tr>
-        {% for resume, score in results %}
+        {% for resume, score, label in results %}
         <tr>
             <td>{{ resume }}</td>
             <td>{{ score }}</td>
+            <td>{{ label }}</td>
         </tr>
         {% endfor %}
     </table>
     <a href="/">Back</a>
 </body>
 </html>
+
