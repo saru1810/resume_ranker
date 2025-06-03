@@ -6,3 +6,11 @@ services:
       apt-get update && apt-get install -y tesseract-ocr
       pip install -r requirements.txt
     startCommand: gunicorn app:app
+services:
+  - type: web
+    name: resume-ranker
+    env: python
+    buildCommand: |
+      apt-get update && apt-get install -y tesseract-ocr poppler-utils
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app
